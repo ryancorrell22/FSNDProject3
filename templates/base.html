@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/templates/main.css">
+    <title>Project 3 Blog</title>
+</head>
+<body>
+        <h1>Project Blog</h1>
+        <br><br><br>
+    <div id="content">
+        {% block content %}
+        {% endblock %}
+    </div>
+    {{eorror}}
+    <a href="/login">Log In And Write A New Post Here</a>
+    <br>
+    <a href="/signup">Sign Up Here</a>
+    <br>
+    <a href="/blog">Back To The Main Page</a>
+</body>
+</html>

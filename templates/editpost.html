@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/templates/main.css">
+    <title>Project Blog</title>
+</head>
+<body>
+    <form method="post">
+        <h2>Subject</h2>
+        <textarea name="subject"></textarea>
+        {{subject_error}}
+        <br>
+        <h2>Content</h2>
+        <textarea name="content"></textarea>
+        {{content_error}}
+        <input type="submit" name="submit">
+        <br><br>
+        <a href="/blog"> Back to the main page</a>
+    </form>
+</body>
+</html>
